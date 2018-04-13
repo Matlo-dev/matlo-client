@@ -2,6 +2,8 @@
 
 ## Nodejs client for Matlo REST API
 
+[![Build Status](https://travis-ci.org/Matlo-dev/matlo-client.svg?branch=master)](https://travis-ci.org/Matlo-dev/matlo-client)
+
 ### Installation
 
 Install via npm
