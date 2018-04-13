@@ -1,0 +1,30 @@
+{
+  "name": "matlo-client",
+  "version": "0.0.0",
+  "description": "Nodejs client for Matlo REST API",
+  "main": "main.js",
+  "author": "Matlo-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Matlo-dev/matlo-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Matlo-dev/matlo-client/issues"
+  },
+  "keywords": [
+    "Matlo",
+    "rest-client"
+  ],
+  "scripts": {
+    "prettier": "prettier -l \"./**/*.js\""
+  },
+  "dependencies": {
+    "async": "^2.0.0",
+    "djax-client": "^0.2.1",
+    "superagent": "^2.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  }
+}
