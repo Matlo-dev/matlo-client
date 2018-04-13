@@ -1,5 +1,5 @@
 {
-  "name": "matlo-client",
+  "name": "matlo",
   "version": "0.1.0",
   "description": "Nodejs client for Matlo REST API",
   "main": "main.js",

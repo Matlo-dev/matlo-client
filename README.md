@@ -1,22 +1,17 @@
+# Matlo-client
 
-Matlo-client
-===
-
-Nodejs client for Matlo REST API
----
+## Nodejs client for Matlo REST API
 
 ### Installation
 
 Install via npm
 
 ```bash
-
 # Latest release
-npm install matlo-client
+npm install matlo
 
 # Development version
 npm install git+https://github.com/matlo-dev/matlo-client.git
-
 ```
 
 ### Usage
@@ -36,7 +31,6 @@ matlo.clientFromUserCredentials(
     // DO WHATEVER YOU WANT
   }
 );
-
 ```
 
 #### Authenticate with token
@@ -53,26 +47,25 @@ matlo.clientFromToken(
     // DO WHATEVER YOU WANT
   }
 );
-
 ```
 
 #### Implemented methods
 
-- user
-  - get
-  - update
-  - createDashboard
-- dashboard
-  - get
-  - update
-  - delete
-  - setUserRights
-- metadata
-  - set
-  - update
-- data
-  - send
-  - delete
+* user
+  * get
+  * update
+  * createDashboard
+* dashboard
+  * get
+  * update
+  * delete
+  * setUserRights
+* metadata
+  * set
+  * update
+* data
+  * send
+  * delete
 
 Methods are implemented as the Matlo dev team need them.
 
