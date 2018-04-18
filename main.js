@@ -38,4 +38,5 @@ function clientFromToken({ token, domain }, callback) {
 module.exports = {
   clientFromUserCredentials,
   clientFromToken,
+  clientFromTokenSync: client,
 };

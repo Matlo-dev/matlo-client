@@ -40,6 +40,13 @@ matlo.clientFromUserCredentials(
 ```js
 const matlo = require('matlo-client');
 
+// synchronous way
+const client = matlo.clientFromTokenSync({
+  token: 'some valid json web token',
+  domain: 'cloud.matlo.com',
+});
+
+// asynchronous way
 matlo.clientFromToken(
   {
     token: 'some valid json web token',
@@ -50,6 +57,8 @@ matlo.clientFromToken(
   }
 );
 ```
+
+> Note that, even if `matlo.clientFromToken` use asynchronous synthax, it only contain synchronous code.
 
 #### Implemented methods
 
